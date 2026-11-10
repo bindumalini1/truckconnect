@@ -325,15 +325,15 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Author
 
-## **Pusapati Raghavendra**
+## **Singidi Bindu Malini**
 
 🎓 B.Tech – Computer Science (Data Science)
 
-📧 Email: **23211a6797@bvrit.ac.in**
+📧 Email: **23211a67b2@bvrit.ac.in**
 
-🔗 GitHub: **https://github.com/raghava-pusapati**
+🔗 GitHub: **https://github.com/bindumalini1**
 
-💼 LinkedIn: **https://linkedin.com/in/raghavendrapusapati**
+💼 LinkedIn: **https://www.linkedin.com/in/bindumalini-singidi**
 
 ---
 
