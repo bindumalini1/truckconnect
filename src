@@ -1,0 +1,29 @@
+feat: Implement live GPS tracking system for load assignments
+- Add real-time driver location tracking using Leaflet.js and Socket.IO
+- Create LiveTracking component for customer map view with truck icon
+- Create DriverTrackingControl component with Start/Stop Drive buttons
+- Integrate tracking controls in CustomerDashboard and DriverDashboard
+- Add tracking schema to Load model (isActive, currentLocation, locationHistory)
+- Implement tracking API routes (start, update, stop, get tracking info)
+- Add Socket.IO WebSocket support for real-time location broadcasts
+- Auto-stop tracking when load is marked as completed
+- Add location history size limit (1000 points) to prevent DB overflow
+- Add browser close handler to stop tracking properly
+- Support sendBeacon for reliable tracking stop on page unload
+- Add translations for Track Load feature (EN, HI)
+- Include comprehensive documentation and testing guides
+
+Technical improvements:
+- Real-time GPS tracking with navigator.geolocation.watchPosition
+- WebSocket communication for instant updates (<1s latency)
+- Polyline path visualization showing route traveled
+- Auto-centering map on driver's current location
+- Role-based security (only assigned driver can track)
+- Automatic reconnection handling
+- Mobile-responsive design
+
+Dependencies added:
+- leaflet: ^1.9.4
+- react-leaflet: ^4.2.1
+- socket.io-client: ^4.8.3 (frontend)
+- socket.io: ^4.8.3 (backend)
